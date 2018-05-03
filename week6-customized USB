@@ -1,0 +1,22 @@
+#This will guide you on how to change your USB icon.
+
+1. plug in your USB and open
+
+2. Open up notepad, create a document
+
+3. find a image that you would like and safe it to desktop. once saved move it to a folder in your USB
+
+4. Go back to your notepad and write
+[autorun]
+icon=youriconname.ico
+-which ever name you save your image to, replace it with youriconname
+
+5. Now go to file and safe as and save as autorun.inf to all files
+
+6. Now edit your autorun to 
+[autorun]
+icon=foldername\iconname.ico
+foldername= the folder name you saved your image to
+ctrl-s to safe
+
+7. unplug your USB and PLug it back in. It should show your image right next to your USB name.
